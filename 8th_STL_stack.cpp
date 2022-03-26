@@ -15,7 +15,7 @@ int main()
     st.size();//gives size of stack(2)
     cout<<st.empty();//gives true if stack is empty or false(false)
     stack<int>st1,st2;
-    st1.swap(s2);//swaps the stacks s1 and s2
+    st1.swap(st2);//swaps the stacks s1 and s2
 
 
 }
