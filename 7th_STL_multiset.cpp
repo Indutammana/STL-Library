@@ -9,7 +9,8 @@ int main()
     ms.insert(1);
     ms.erase(1);//it erases all ones present in set
     ms.erase(ms.find(1));//it erases the fist one in the set
-    for(auto it:ms){
+    for(auto it:ms)
+    {
         cout<<it<<" ";
     }
     ms.count(1);//give the count of ones in set
